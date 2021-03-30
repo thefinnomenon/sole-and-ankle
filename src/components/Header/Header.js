@@ -32,16 +32,16 @@ const Header = () => {
 const MainHeader = styled.div`
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
   height: 72px;
-  padding: 0 32px;
+  padding: 18px 32px;
   border-bottom: 1px solid ${COLORS.gray[300]};
 `;
 
 const Nav = styled.nav`
   display: flex;
-  justify-content: space-between;
-  flex: 2;
+  gap: 48px;
+  margin: 0 48px;
 `;
 
 const NavLink = styled.a`
