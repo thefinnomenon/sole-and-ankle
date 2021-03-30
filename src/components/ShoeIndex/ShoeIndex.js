@@ -47,16 +47,16 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-end;
+  align-items: baseline;
+  gap: 32px;
 `;
 
 const LeftColumn = styled.div`
-  flex: 1;
-  /* Is there a way to align to right column baseline? */
-  padding-top: 14px;
+  flex-basis: 248px;
 `;
 
 const MainColumn = styled.div`
-  flex: 4;
+  flex: 1;
 `;
 
 const Header = styled.header`
